@@ -1,0 +1,182 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:black;      
+    }
+
+html{
+    zoom: 100%;}
+
+/* header styling */
+header{
+    /* border: 1px yellow; */
+    position:fixed;
+      top: 0; 
+    border-radius: 10px;
+    width: 100%;
+    height: 80px;
+    background-color:black;
+     }
+
+header h1{
+    /* border: 2px solid white ; */
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 250%;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 50px;;
+    width: 8em;
+    padding :20px ;
+    padding-left: 25px;
+     }
+
+     /* nav */
+nav {
+    /* border: 1px solid green; */
+    float:right ;
+    width: 50em ;
+    margin: 20px;
+    padding: 5px;
+    }
+
+nav a {
+    color: beige;
+    float: right;
+    border: 2px solid gray;
+    font-size: x-large;
+    text-decoration:none;
+    /* border: 2px solid red; */
+    border-radius: 8%;
+    margin-right: 25px;
+    background-color:black;
+    padding : 3px 15px;
+    }
+
+nav a:hover{
+    background-color: gray;
+    color: black;
+    }
+
+/* pic */
+#prof{
+    border: 5px solid rgb(8, 8, 8); 
+    float: left;
+    height: 500px;
+    margin: 15px;
+    background-attachment: scroll; 
+     }
+
+/* content */
+ aside{
+    float: right;
+    margin-top: 85px;
+    /* padding: 15px; */
+    border: 1px dotted black; 
+    width: 55%;
+    height: fit-content;
+    background-color: gray;
+     }
+
+ /* styling for contents */
+ aside div{
+    /* border: 1px solid red;  */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-top: 30px;
+    margin: 30px;
+    padding: 40px;
+    text-indent: 5%;
+    text-align: center ;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    border-radius: 15px;
+    line-height: 1.5;
+    }
+
+ /* bg for about section */
+ #about{
+    background-color:black;
+    }
+
+ /* heading in about */
+ #about h1{
+    text-align: center;
+    color: antiquewhite;
+    }
+
+ #about p{
+    color: antiquewhite;
+    }
+
+ /* skills */
+ 
+.skills {
+    height: 350px;
+    background-color: black;
+ }
+
+  #skills h1{
+    color: antiquewhite;
+    text-align: center;
+
+  }
+  #skills h2{
+    color: antiquewhite;
+
+  }
+
+ #skills ul  {
+
+    color: white;
+    /* border: 2px solid brown; */
+    float: left;
+    width: 160px;
+    margin-right: 130px;
+    margin: 30px;
+    padding: 10px;
+}
+  
+ /* education */
+ #edu{
+    background-color: black;
+    color: antiquewhite;
+   }
+
+ #edu h1{
+        text-align: center;
+  
+    }
+
+  /* experiance */
+  #exp {
+    background-color: black;
+    color: antiquewhite;
+    }
+
+  #exp h1{
+    text-align: center;
+   }
+
+/* contact */
+  #contact ul{
+    list-style:square;
+    text-align: justify;
+  }
+ 
+  .footer{
+    text-align: center;
+    /* border: 1px solid wheat;  */
+    position: fixed;
+    bottom:0;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+ 
